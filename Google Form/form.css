@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(199, 214, 211);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 1200px;
+    width: 100%;
+}
+.main{
+    background-color: blanchedalmond;
+    border: 2px black solid;
+    border-radius: 6px;
+    text-align: center;
+    width: 600px;
+    height: 200px;
+    position: relative;
+    left: 300px;
+}
+.required{
+    font-size: 15px;
+    color: red;
+}
+.form{
+    position: relative;
+    left: 330px;
+}
+
+.email1, .name1, .college1, .rollno1, .prn1, .mobile1, .address1, .branch1{
+    background-color: aliceblue;
+    border: 2px white solid;
+    border-radius: 6px;
+    height: 80px;
+    width: 500px;
+    margin: 5px;
+    padding: 6px;
+}
+.input{
+    margin: 5px;
+    padding: 5px;
+}
+.email{
+    margin: 5px;
+    padding: 5px;
+}
+.name{
+    margin: 5px;
+    padding: 5px;
+}
+.college{
+    margin: 5px;
+    padding: 5px;
+}
+.rollno{
+    margin: 5px;
+    padding: 5px;
+}
+.prn{
+    margin: 5px;
+    padding: 5px;
+}
+.branch{
+    margin: 5px;
+    padding: 5px;
+}
+.address{
+    margin: 5px;
+    padding: 5px;
+}
+.mobile{
+    margin: 5px;
+    padding: 5px;
+}
+.btn{
+    background-color: aquamarine;
+    border: 2px green solid;
+    border-radius: 6px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    width: 90px;
+    height: 30px;
+    margin: 18px;
+    padding: 5px;
+}
+.term{
+    text-align: center;
+}
+.btn:hover{
+    background-color: chocolate;
+    color: black;
+}
